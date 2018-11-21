@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'VL Goku';
+    src: url('hinted-VLGoku.eot');
+    src: url('hinted-VLGoku.eot?#iefix') format('embedded-opentype'),
+        url('hinted-VLGoku.woff2') format('woff2'),
+        url('hinted-VLGoku.woff') format('woff'),
+        url('hinted-VLGoku.ttf') format('truetype'),
+        url('hinted-VLGoku.svg#VLGoku') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('hinted-BebasNeue.eot');
+    src: url('hinted-BebasNeue.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BebasNeue.woff2') format('woff2'),
+        url('hinted-BebasNeue.woff') format('woff'),
+        url('hinted-BebasNeue.ttf') format('truetype'),
+        url('hinted-BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bodoni Std';
+    src: url('hinted-BodoniStd.eot');
+    src: url('hinted-BodoniStd.eot?#iefix') format('embedded-opentype'),
+        url('hinted-BodoniStd.woff2') format('woff2'),
+        url('hinted-BodoniStd.woff') format('woff'),
+        url('hinted-BodoniStd.ttf') format('truetype'),
+        url('hinted-BodoniStd.svg#BodoniStd') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('hinted-Avenir-Book.eot');
+    src: url('hinted-Avenir-Book.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Avenir-Book.woff2') format('woff2'),
+        url('hinted-Avenir-Book.woff') format('woff'),
+        url('hinted-Avenir-Book.ttf') format('truetype'),
+        url('hinted-Avenir-Book.svg#Avenir-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE GoodTime Grotesk';
+    src: url('hinted-MADEGoodTimeGrotesk.eot');
+    src: url('hinted-MADEGoodTimeGrotesk.eot?#iefix') format('embedded-opentype'),
+        url('hinted-MADEGoodTimeGrotesk.woff2') format('woff2'),
+        url('hinted-MADEGoodTimeGrotesk.woff') format('woff'),
+        url('hinted-MADEGoodTimeGrotesk.ttf') format('truetype'),
+        url('hinted-MADEGoodTimeGrotesk.svg#MADEGoodTimeGrotesk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('hinted-Avenir-Heavy.eot');
+    src: url('hinted-Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Avenir-Heavy.woff2') format('woff2'),
+        url('hinted-Avenir-Heavy.woff') format('woff'),
+        url('hinted-Avenir-Heavy.ttf') format('truetype'),
+        url('hinted-Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('hinted-Avenir-Medium.eot');
+    src: url('hinted-Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Avenir-Medium.woff2') format('woff2'),
+        url('hinted-Avenir-Medium.woff') format('woff'),
+        url('hinted-Avenir-Medium.ttf') format('truetype'),
+        url('hinted-Avenir-Medium.svg#Avenir-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
