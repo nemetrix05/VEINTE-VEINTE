@@ -19,15 +19,8 @@ $(document).ready(function() {
 
 	/* Set Home link page by default */
 	$('nav ul li:nth-child(1) a').addClass('selected');
-	$('.mainBanner .panel:nth-child(1)').addClass('active');
-	$('.sidebar div:nth-child(1) span img').addClass('fcurrent');
-
-
-	/* Flexslider experiment
-	$('#slider .slides li a.flex-nav-next').click(function(event){
-		event.preventDefault();
-		$('#carousel').play();
-	});*/	
+	$('.mainBanner .panel:nth-child(12)').addClass('active');
+	$('.sidebar div:nth-child(12) span img').addClass('fcurrent');	
 
 
 	/* Active Buttoms */
@@ -286,7 +279,8 @@ $(document).ready(function() {
 	});
 
 	// Menu Mobile
-    $("#pill").click(function(){
+    $("#pill").click(function(e){
+		 e.preventDefault();
     	 $("nav").toggle();
 	})	 
 
