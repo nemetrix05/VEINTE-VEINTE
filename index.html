@@ -7,7 +7,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
-        <link rel="stylesheet" href="css/style.css">        
+        <link rel="stylesheet" href="css/style.css">   
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->           
     </head>
     <body>
     	<header id="header">
@@ -19,14 +22,14 @@
                     <div class="col col-md-9 col-sm-9">
                         <a href="#" id="pill"></a>
                         <div style="clear:both;"></div>
-                        <nav>
+                        <div class="nav">
                             <ul>
                                 <li><a href="#wrapper" title="HOME">HOME</a></li>
                                 <li><a href="#portafolio" title="PORTAFOLIO">PORTAFOLIO</a></li>
                                 <li><a href="#nosotros" title="NOSOSTROS">NOSOTROS</a></li>
                                 <li><a href="#contacto" title="CONTACTO">CONTACTO</a></li>
                             </ul>
-                        </nav>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -442,12 +445,12 @@
                                             </li>  
                                             
                                             <li>
-                                                <img src="images/2018/noviembre/finales/20.jpg" />                    
+                                                <img src="images/2018/noviembre/finales/21.jpg" />                    
                                                 <div class="flex-caption"><div class="extract producto3"><p class="p03"></p></div></div>
                                             </li>     
                                             
                                             <li>
-                                                <img src="images/2018/noviembre/finales/21.jpg" />                    
+                                                <img src="images/2018/noviembre/finales/20.jpg" />                    
                                                 <div class="flex-caption"><div class="extract producto3"><p class="p04"></p></div></div>
                                             </li>                                                 
         
@@ -881,7 +884,7 @@
                             
                         </div><!--end aside -->     
 
-                        <div class="col-12 col-xs-12 col-md-6 col-sm-6 d-hidden">
+                        <div class="col-12 col-xs-12 col-md-6 col-sm-6 d-back">
                             <img src="images/nosotros-portfolio.jpg">
                         </div>
 
@@ -1017,7 +1020,7 @@
         }
         
         var errorCallback = function(){ 
-            console.log('Error al resolver la capcha');  
+            //console.log('Error al resolver la capcha');  
         }
 
         

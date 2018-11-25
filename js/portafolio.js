@@ -171,7 +171,22 @@ function TerrySurf () {
 
 $('.producto10 .p01').html(TerrySurf().descripcion);
 
+
 // 11. FRIENDS FOREVER
+function FriendsForever () {
+    return(
+        {
+
+            'descripcion'   :   'Imagen para tienda virtual de ropa y accesorios personalizados para los mejores amigos en Quito, Ecuador.'         
+        }
+    )
+}
+
+$('.producto11 .p01').html(FriendsForever().descripcion);
+
+
+
+// 12. OTROS PROYECTOS
 
 function OtrosProyectos () {
     return(

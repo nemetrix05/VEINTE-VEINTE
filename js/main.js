@@ -18,23 +18,23 @@
 $(document).ready(function() {
 
 	/* Set Home link page by default */
-	$('nav ul li:nth-child(1) a').addClass('selected');
+	$('.nav ul li:nth-child(1) a').addClass('selected');
 	$('.mainBanner .panel:nth-child(12)').addClass('active');
 	$('.sidebar div:nth-child(12) span img').addClass('fcurrent');	
 
 
 	/* Active Buttoms */
 
-	var element1 	= $('nav ul li:nth-child(1) a');
-	var element2 	= $('nav ul li:nth-child(2) a');
-	var element3 	= $('nav ul li:nth-child(3) a');
-	var element4 	= $('nav ul li:nth-child(4) a');
+	var element1 	= $('.nav ul li:nth-child(1) a');
+	var element2 	= $('.nav ul li:nth-child(2) a');
+	var element3 	= $('.nav ul li:nth-child(3) a');
+	var element4 	= $('.nav ul li:nth-child(4) a');
 
-	// add class nav
+	// add class .nav
 	var nameClass = 'selected';
 	var nameAncla = 'selectedAncla';
 
-	$('nav ul li:nth-child(1) a').click(function(){
+	$('.nav ul li:nth-child(1) a').click(function(){
 
 		$(this).addClass(nameClass);
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
 		$(element4).removeClass(nameClass);
 	});
 
-	$('nav ul li:nth-child(2) a').click(function(){
+	$('.nav ul li:nth-child(2) a').click(function(){
 
 		$(this).addClass(nameClass);
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
 
 	});		
 
-	$('nav ul li:nth-child(3) a').click(function(){
+	$('.nav ul li:nth-child(3) a').click(function(){
 
 		$(this).addClass(nameClass);
 
@@ -90,7 +90,7 @@ $(document).ready(function() {
 		$('#contacto').removeClass(nameAncla);
 	});	
 
-	$('nav ul li:nth-child(4) a').click(function(){
+	$('.nav ul li:nth-child(4) a').click(function(){
 
 		$(this).addClass(nameClass);
 
@@ -197,21 +197,25 @@ $(document).ready(function() {
 
 		sync: "#carousel",
 		
-		move: 1,	
+		move: 1,
 		
 		end : function(slider){
 			jQuery('#slider .slides li').each(function(){
 				slider.addSlide('<li>'+jQuery(this).context.innerHTML+'</li>', slider.count);
 				jQuery('#slider .slides').append('<li>'+jQuery(this).context.innerHTML+'</li>');
 			});
-		}			
+		},
+		
+		prevText: "",
+
+		nextText: ""
 
 	  });
 
 
   // anclas jqueery
 
-	$('nav a, .welcome a').click(function(e){			
+	$('.nav a, .welcome a').click(function(e){			
 
 		e.preventDefault();	//evitar el eventos del enlace normal
 
@@ -281,7 +285,7 @@ $(document).ready(function() {
 	// Menu Mobile
     $("#pill").click(function(e){
 		 e.preventDefault();
-    	 $("nav").toggle();
+    	 $(".nav").toggle();
 	})	 
 
 
